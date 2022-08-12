@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador - Santiago Zaidan</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+
+    </head>
+
+
+    <body>
+
+        <div class="grid-container">
+
+
+            <div class="header">
+    
+    
+                <a href="https://www.aluracursos.com/?gclid=CjwKCAjwi8iXBhBeEiwAKbUofVkxgY0r94R_XONYTSI3XGNne3npAcHJuWckgSVPodMJcrqleV2VSRoClZIQAvD_BwE"><img src="Media/Logo.png" alt="Logo" class="logo-alura"></a>
+                
+                
+            </div>
+    
+
+            <div class="izquierda">
+                 
+                
+                <input class="input" type="text" id="ingresado" placeholder="Ingrese el texto aqui" oninput="this.value = this.value.toLowerCase()" onkeypress="return validation(event)"></input>     
+                    
+                
+                <div class="parrafo-botones">
+                    
+
+                    <p class="parrafo">🛈 Solo letras minúsculas y sin acentos.</p>
+
+
+                    <div class="botones">
+    
+    
+                        <button class="boton encriptar" id="encriptar">Encriptar</button>
+                            
+                        <button class="boton desencriptar" id="desencriptar">Desencriptar</button>
+    
+    
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        
+        
+            <div class="derecha">
+
+                    
+                <img src="Media/Muñeco.png" alt="Muñeco" class="munieco">
+    
+                <h2 class="texto-munieco">Ningún mensaje fue encontrado</h2>
+    
+                <p class="parrafo-munieco">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                <div class="contenedor-resultado">
+    
+                    <h3 class="h3 ocultar">Su mensaje final es:</h3>
+        
+                    <p class="texto-resultado ocultar" cols="25" rows="20" readonly></p>
+    
+                </div>
+    
+                <img src="Media/clipboard-outline.svg" class="boton-copiar ocultar">
+        
+                <!--<button class="boton-copiar boton ocultar">Copiar</button>-->
+        
+            </div>
+            
+    
+            <div class="footer">
+    
+                <a href="https://www.instagram.com/santizaidan_/"><img src="Media/logo-ig-png-32457.png" alt="Logo Instagram" class="logo-ig logos"></a>
+                
+                <p class="copyright">&copy; Alura - Santiago Zaidan</p>
+                
+                <a href="https://www.linkedin.com/in/santiago-zaidan-b68841229/"><img src="Media/LinkedIn.png" alt="Logo LinkedIn" class="logo-linkedin logos"></a>
+                
+            </div>
+
+
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+
+
+    </body>
+
+
+
+
+</html>
