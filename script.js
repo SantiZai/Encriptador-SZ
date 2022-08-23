@@ -22,7 +22,6 @@ function ocultarSeccionMunieco() {
     parrafoMunieco.classList.add("ocultar");
 
     // ? mostrar
-
     h3Resultado.classList.remove("ocultar");
     botonCopiar.classList.remove("ocultar");
     textoResultado.classList.remove("ocultar");
